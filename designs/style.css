@@ -132,3 +132,62 @@ a:visited {
 .btn a:hover {
   background-color: #e6e6e6;
 }
+
+
+/* Pradeep Style */
+
+
+.container{
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.padding{
+  width: 100%;
+  background-color: var(--white);
+  height: 20px;
+
+}
+.container-text{
+  display:flex;
+  flex-direction:column;
+  gap: 30px;
+  padding-left: 40px;
+}
+.container-text h1{
+  font-size: 30px;
+  color: var(--primary-bg-blue);
+  max-width: 500px;
+}
+.container-text p{
+  max-width: 550px;
+}
+
+.slider-container {
+  width: 760px;
+  max-width: 800px; 
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: 760px;
+  transition: transform 0.7s ease-in-out; 
+}
+
+.slide {
+  width: 760px; 
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: flex;
+}
+
